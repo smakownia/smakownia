@@ -1,0 +1,12 @@
+[submodule "sk-products"]
+	path = sk-products
+	url = https://github.com/smakownia/sk-products.git
+[submodule "sk-basket"]
+	path = sk-basket
+	url = https://github.com/smakownia/sk-basket
+[submodule "sk-frontend"]
+	path = sk-frontend
+	url = https://github.com/smakownia/sk-frontend.git
+[submodule "sk-gateway"]
+	path = sk-gateway
+	url = https://github.com/smakownia/sk-gateway.git
