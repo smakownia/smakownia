@@ -29,6 +29,10 @@ cd ../sk-basket
 docker-compose build
 docker-compose -f docker-compose.yml up -d
 
+cd ../sk-identity
+docker-compose build
+docker-compose -f docker-compose.yml up -d
+
 cd ../sk-frontend
 docker-compose build
 docker-compose up -d
@@ -47,7 +51,7 @@ docker-compose up -d
 - ASP .NET core
 - Swagger
 - Entity Framework Core
-- MsSQL
+- Postgres
 - CQRS
 - DDD
 
@@ -58,6 +62,13 @@ docker-compose up -d
 - Redis
 - CQRS
 - DDD
+
+### Identity service
+
+- ASP .NET core
+- Swagger
+- Postgres
+- JWT
 
 ### Frontend service
 
