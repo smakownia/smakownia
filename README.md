@@ -2,7 +2,7 @@
 
 Online pizzeria application, based on a simplified microservices architecture and Docker containers.
 
-![preview](github/img/preview.png)
+![preview](github/img/preview1.png)
 
 ## Getting Started
 
@@ -84,3 +84,13 @@ docker-compose up -d
 This reference application is cross-platform at the server and client-side, thanks to .NET 6 services capable of running on Linux or Windows containers depending on your Docker host. The architecture proposes a microservice oriented architecture implementation with multiple autonomous microservices (each one owning its own database/cache) and implementing different approaches within each microservice (simple CRUD or DDD/CQRS patterns) using HTTP as the communication protocol between the client apps and the microservices.
 
 ![diagram](github/img/diagram.png)
+
+## Preview
+
+![preview1](github/img/preview1.png)
+![preview2](github/img/preview2.png)
+![preview3](github/img/preview3.png)
+![preview4](github/img/preview4.png)
+![preview5](github/img/preview5.png)
+![preview6](github/img/preview6.png)
+![preview7](github/img/preview7.png)
