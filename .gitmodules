@@ -10,3 +10,6 @@
 [submodule "sk-gateway"]
 	path = sk-gateway
 	url = https://github.com/smakownia/sk-gateway.git
+[submodule "sk-identity"]
+	path = sk-identity
+	url = https://github.com/smakownia/sk-identity.git
