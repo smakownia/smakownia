@@ -1,8 +1,8 @@
 # Smakownia
 
-Online pizzeria application, based on a simplified microservices architecture and Docker containers.
+Online pizzeria application, based on a simplified microservices architecture and Docker containers
 
-![preview](github/img/preview1.png)
+https://github.com/user-attachments/assets/d9720fe5-edd1-406a-98f7-fed353a21f60
 
 ## Getting Started
 
