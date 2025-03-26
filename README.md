@@ -19,19 +19,19 @@ Build and run each submodule:
 ```bash
 cd sk-gateway
 docker-compose build 
-docker-compose -f docker-compose.yml up -d
+docker-compose -f docker-compose.override.yml up -d
 
 cd ../sk-products
 docker-compose build
-docker-compose -f docker-compose.yml up -d
+docker-compose -f docker-compose.override.yml up -d
 
 cd ../sk-basket
 docker-compose build
-docker-compose -f docker-compose.yml up -d
+docker-compose -f docker-compose.override.yml up -d
 
 cd ../sk-identity
 docker-compose build
-docker-compose -f docker-compose.yml up -d
+docker-compose -f docker-compose.override.yml up -d
 
 cd ../sk-frontend
 docker-compose build
